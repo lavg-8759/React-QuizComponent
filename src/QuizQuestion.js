@@ -5,12 +5,12 @@ export default class QuizQuestion extends Component {
         return (
             <main>
                 <section>
-                    <p>{this.props.instructions_text}</p>
+                    <p>{this.props.quiz_question.instruction_text}</p>
                 </section>
                 <section className="buttons">
-                    <u1>
+                    <ul>
                         <li>{this.props.quiz_question.answer_options[0]}</li>
-                    </u1>
+                    </ul>
                 </section>
 
             </main>
